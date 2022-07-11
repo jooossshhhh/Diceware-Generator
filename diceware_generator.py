@@ -24,9 +24,8 @@ if __name__=='__main__':
         #join list of numbers together
         diceware.add(''.join(map(str,numbers)))
     #find the words that correspond to each five digit number
-    new_pass = []
+    print("You're new password is: \n")
     for dice in diceware:
-        new_pass.append(dict_from_csv[dice])
-    print(new_pass)
+        print(dict_from_csv[dice])
 
   
